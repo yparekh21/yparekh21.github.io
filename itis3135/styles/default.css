@@ -5,8 +5,8 @@
 
 body
 {
-	font-family: yellow;
-	color: black;
+	font-family: helvetica, cambria, georgia;
+	color: maroon;
 	background-color: #fcde67;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -21,13 +21,12 @@ h1, h2, h3
 {
 	font-family: Georgia, Cochin, Cambria, serif;
 	text-align: center;
-	line-height: 0px;
 }
 
 a
 {
 	text-decoration: none;
-	color: lightseagreen;
+	color: red;
 	font-weight: bold;
 }
 
