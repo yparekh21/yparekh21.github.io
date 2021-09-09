@@ -55,3 +55,31 @@ main {
 	font-family: courier new;
 	font-weight: bold;
 }
+
+thead
+{
+	background-color: #fc4e4e;
+	
+}
+tbody tr:nth-child(odd) td
+{
+	color: #691a1a;
+	background-color: #fcd2d2;
+}
+tbody tr:nth-child(even) td
+{
+	color: #691a1a;
+	background-color: #fa7878;
+}
+td, th
+{
+	border: 1px solid black;
+	vertical-align: middle;
+}
+
+
+figure{
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+}
