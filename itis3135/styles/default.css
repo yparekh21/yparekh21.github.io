@@ -1,8 +1,4 @@
 
-/* got this from coolors.co - please improve!
- https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
-*/
-
 body
 {
 	font-family: helvetica, cambria, georgia;
@@ -26,7 +22,7 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: red;
+	color: green;
 	font-weight: bold;
 }
 
@@ -53,7 +49,7 @@ nav
 
 main {
 	font-family: courier new;
-	font-weight: bold;
+	
 }
 
 thead
@@ -83,3 +79,21 @@ figure{
 	font-size: 15px;
 	padding: 5px;
 }
+
+#submit{
+	color: #ffd9d9;
+	background-color: #ab2b2b;
+}
+input[type=email]{
+	width: 200px;
+}
+#information, #dining, #contact, #payment {
+	background-color: #fff8db;
+	font-size: 15px;
+	margin: 13px;
+}
+p{
+	background-color: #ffffd1;
+	font-weight: bold;
+}
+
