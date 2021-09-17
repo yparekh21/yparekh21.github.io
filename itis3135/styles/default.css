@@ -22,7 +22,7 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: green;
+	color: maroon;
 	font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ input[type=email]{
 	margin: 13px;
 }
 p{
-	background-color: #ffffd1;
+	background-color: #ffe991;
 	font-weight: bold;
 }
 
