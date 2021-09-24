@@ -13,17 +13,26 @@ header, footer
 	text-align: center;
 }
 
-h1, h2, h3
+h1, h2
 {
 	font-family: Georgia, Cochin, Cambria, serif;
+	text-align: center;
+}
+
+h3 {
+	font-family: Georgia, Cochin, Cambria, serif;
+	color: #000080;
+	text-align: left;
+}
+nav
+{
+	color: #008080 !important;
 	text-align: center;
 }
 
 a
 {
 	text-decoration: none;
-	color: maroon;
-	font-weight: bold;
 }
 
 a:hover
@@ -42,10 +51,6 @@ figcaption
 	font-style: italic;
 }
 
-nav
-{
-	text-align: center;
-}
 
 main {
 	font-family: courier new;
@@ -95,5 +100,9 @@ input[type=email]{
 p{
 	background-color: #ffe991;
 	font-weight: bold;
+}
+
+#button:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
