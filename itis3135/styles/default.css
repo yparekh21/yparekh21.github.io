@@ -24,6 +24,12 @@ h3 {
 	color: #000080;
 	text-align: left;
 }
+h4 {
+	font-family: Georgia, Cochin, Cambria, serif;
+	color: #000080;
+	#text-indent: 50px;
+	font-weight: normal;
+}
 
 nav
 {
@@ -115,6 +121,9 @@ p{
 
 }
 
-
+#paragraph {
+	font-weight: normal;
+	margin-left: 50px;
+}
 
 
