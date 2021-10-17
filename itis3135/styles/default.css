@@ -121,7 +121,7 @@ p{
 
 }
 
-#paragraph {
+p.paragraph {
 	font-weight: normal;
 	margin-left: 50px;
 }
