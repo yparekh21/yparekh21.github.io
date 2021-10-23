@@ -1,0 +1,62 @@
+
+body
+{
+	font-family: helvetica, cambria, georgia;
+	color: maroon;
+	background-color: #fcde67;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+h1, h2, ul, p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+h1, h2
+{
+	font-family: Georgia, Cochin, Cambria, serif;
+	text-align: center;
+}
+ul{
+    text-align: center;
+}
+h1 {
+  text-align: center;
+	padding-bottom: .25em;
+	color: blue;
+}
+
+h2 {
+	font-size: 120%;
+	padding: .5em 0;
+}
+
+li {
+	padding: 0 0.25em;
+	display: inline;
+}
+#caption, #gallery {
+	text-align: center;
+}
+nav
+{
+	color: #008080 !important;
+	text-align: center;
+}
+header, footer
+{
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: mediumseagreen;
+}
+
+
+
