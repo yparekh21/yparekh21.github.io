@@ -1,0 +1,56 @@
+			body{
+				font-family: helvetica, cambria, georgia;
+				color: #0f0326;
+				background-color: #f5f7dc;
+				margin-left: 75px;
+				margin-right: 75px;
+			}
+
+			header, footer, nav
+			{
+				text-align: center;
+			}
+			.header-nav{
+				background-color: #E65F5C
+				
+			}
+			
+			footer{
+				background-color: #B5D99C
+			}
+
+			h1, h2, h3
+			{
+				font-family: Georgia, Cochin, Cambria, serif;
+				text-align: center;
+			}
+			a
+			{
+				text-decoration: none;
+				color: #FFFF82;
+				font-weight: bold;
+			}
+			a:hover
+			{
+				text-decoration: underline;
+				color: mediumseagreen;
+			}
+			main {
+				font-family: courier new;
+				background-color: #FFFF82;
+			}
+			.border{
+				 border: 2px solid orange
+			}
+			td, th 
+			{
+			  border: 1px solid black;
+			  padding: 8px;
+			  color: maroon;
+			  text-align: left;
+			  
+			}
+			table.center {
+			  margin-left: auto;
+			  margin-right: auto;
+			}
