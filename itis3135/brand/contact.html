@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset = "UTF-8">
+	<title>Yash Parekh, ITIS 3135, Contact Page</title>
+	<link href = "styles/default.css" rel = "stylesheet" type = "text/css" >
+	<! –– https://coolors.co/ffff82-f5f7dc-b5d99c-0f0326-e65f5c --->
+	
+</head>
+
+<body>
+	<div class="header-nav">
+		<header>
+				<h1><img src="images/panther-pixabay-com.png" style="width:100px;height:150px;" alt="The Yellow Ruthless Panther">Yash Parekh | ITIS3135</h1>
+		</header>	
+		<nav>
+			<a href = "index.html">Home</a> 
+			||
+			<a href = "contact.html">Contact Page</a> 
+			||
+			<a href = "brand-yellow-panther.html">Brand Page</a>
+		</nav>
+	</div>
+	
+	<main>
+		<script src="scripts/contact.js"></script>
+		<h2>Contact Page</h2>
+		<form action=#>
+			<p> Please enter your contact information and today's date:<br></p>
+				<label>
+					<input type="text" placeholder="Name" id="name" required>
+				</label>
+				<label>
+					<input type="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" required>
+				</label>
+				<label>
+					<input type="email" placeholder="Email Address" id="email" required>
+				</label>
+				<label>
+					<input type="date" id="date" required>
+				</label>
+			
+			<br><br>
+			<p> How would you like to be contacted?<br></p>
+				<label>
+					<input id="call" type="checkbox" name="contactpreference">Call
+				</label>
+				<label>
+					<input id="text" type="checkbox" name="contactpreference">Text
+				</label>
+				<label>
+					<input id="usingemail" type="checkbox" name="contactpreference">Email
+				</label>
+			
+			<br><br>
+			<p> What type of service would you like to try?<br></p>
+			<label>
+				<select name="service" size="3" id="serviceType" required>
+					<option id="web1">Web Design 1 (Create blueprint for website)</option>
+					<option id="web2">Web Design 2 (Create blueprint for website + Create the website)</option>
+					<option id="web3">Web Design 3 (Create blueprint for website + Create the website + Host website)</option>
+				</select>
+			</label>
+			<br><br>
+			<p> What is your preferred payment method?<br></p>
+				<label>
+				  <input id="cash" type="radio" name="payment-method" required>Cash 
+				</label>
+				<label>
+				  <input id="debit" type="radio" name="payment-method">Debit 
+				</label>
+				<label>
+				  <input id="credit" type="radio" name="payment-method">Credit 
+				</label>
+				<label>
+				  <input id="giftcard" type="radio" name="payment-method">Gift Card 
+				</label>			
+			
+			<br><br>
+			
+			<label>
+				<button id="submit" type="submit" onclick="displaytheData()">Submit</button>
+			</label>
+			
+			<h2>Your Information</h2>
+			<div id="displayUserInfo">
+				
+			</div>
+			
+		</form>
+	</main>
+	<br>
+	<footer>
+		<br />
+	
+		<p> Designed by the Yellow Ruthless Panther Corporation 2021</p>
+	
+		<a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fyparekh%2Fitis3135%2Fbrand-yellow-panther.html">
+			<img src = "images/button-valid-html5.gif" width = "88" height = "31" alt = "Link to HTML validator"></a>
+
+		<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fyparekh%2Fitis3135%2Fbrand-yellow-panther&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+			<img src = "images/button-valid-css.gif" width="88" height = "31" alt = "Link to CSS validator"></a>
+	
+	</footer>
+
+</body>
+
+</html>
