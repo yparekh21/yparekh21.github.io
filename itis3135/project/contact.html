@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<meta charset = "UTF-8">
+	<title>Yash Parekh, ITIS 3135, Contact Page</title>
+	<link href = "styles/default.css" rel = "stylesheet" type = "text/css" >
+	<! –– https://coolors.co/ffff82-f5f7dc-b5d99c-0f0326-e65f5c --->
+	
+</head>
+
+<body>
+	<div class="header-nav">
+			<header>
+					<h1>Simple Pixel Photos</h1>
+			</header>	
+			<nav>
+				<a href = "index.html">Home</a> 
+				||
+				<a href = "contact.html">Contact Page</a> 
+				||
+				<a href = "services.html">Services Page</a>
+				||
+				<a href = "photos.html">Photos</a>
+				||
+				<a href = "about.html">About Page</a>
+			</nav>
+	</div>
+	
+	<main>
+		<script src="scripts/contact.js"></script>
+		<h2>Contact Page</h2>
+		<form action=#>
+			<p> Please enter your contact information and today's date:<br></p>
+				<label>
+					<input type="text" placeholder="Name" id="name" required>
+				</label>
+				<label>
+					<input type="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" required>
+				</label>
+				<label>
+					<input type="email" placeholder="Email Address" id="email" required>
+				</label>
+				<label>
+					<input type="date" id="date" required>
+				</label>
+			
+			<br><br>
+			<p> How would you like to be contacted?<br></p>
+				<label>
+					<input id="call" type="checkbox" name="contactpreference">Call
+				</label>
+				<label>
+					<input id="text" type="checkbox" name="contactpreference">Text
+				</label>
+				<label>
+					<input id="usingemail" type="checkbox" name="contactpreference">Email
+				</label>
+			
+			<br><br>
+			<p> What type of service would you like to try?<br></p>
+			<label>
+				<select name="service" id="serviceType" required>
+					<option id="web1">Wedding Photography</option>
+					<option id="web2">Portraits/Headshots</option>
+					<option id="web3">Event Photography</option>
+					<option id="web4">Vehicle Photography</option>
+				</select>
+			</label>
+			<br><br>
+			<p> What is your preferred payment method?<br></p>
+				<label>
+				  <input id="cash" type="radio" name="payment-method" required>Cash 
+				</label>
+				<label>
+				  <input id="debit" type="radio" name="payment-method">Debit 
+				</label>
+				<label>
+				  <input id="credit" type="radio" name="payment-method">Credit 
+				</label>
+				<label>
+				  <input id="giftcard" type="radio" name="payment-method">Gift Card 
+				</label>			
+			
+			<br><br>
+			
+			<label>
+				<button id="submit" type="submit" onclick="displaytheData()">Submit</button>
+			</label>
+			
+		</form>
+	</main>
+	<br>
+	<footer>
+			<p> Designed by Simple Pixel Photos LLC 2021 </p>
+		</footer>
+
+</body>
+
+</html>
