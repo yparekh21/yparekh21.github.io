@@ -10,19 +10,24 @@ $(document).ready(function() {
 
         var imageURL = $(this).attr("href"); 
         var caption = $(this).attr("title"); 
-		$("#image").fadeOut(3000,
+		$("#image, #caption").fadeOut(3000,
 			function() {
-				//var imageURL = $(this).attr("href"); 
+				$("#caption").text(caption).fadeIn(3000);
 				$("#image").attr("src", imageURL).fadeIn(3000);
-				
-				//var caption = $(this).attr("title"); 
-				$("#caption").text(caption).fadeIn(3000); 
+				$("#caption").delay(3000).animate({
+				  "font-size": "2em"
+				}, 3000);
 			}
+			
 		);
+		
                  
         // cancel the default action of the link 
         evt.preventDefault();  // jQuery cross-browser method 
+		
     }); // end click 
+	
+	
  
     // move focus to first thumbnail 
     $("li:first-child a").focus();
@@ -30,5 +35,4 @@ $(document).ready(function() {
 }); // end ready
 
 
-	
 			
