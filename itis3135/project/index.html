@@ -3,13 +3,17 @@
 
 <head>
 	<meta charset = "UTF-8">
-	<title>Yash Parekh, ITIS 3135, Home Page</title>
+	<title>Home Page</title>
 	<link href = "styles/default.css" rel = "stylesheet" type = "text/css" >
-	<!–– https://coolors.co/ffff82-f5f7dc-b5d99c-0f0326-e65f5c --->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+	<script src="photos.js"></script>
+	
 </head>
+
 <body>
-	<div class="grid-container1">
-	  <div class="item1"><div class="header-nav">
+	<div class="header-nav">
 			<header>
 					<h1>Simple Pixel Photos</h1>
 			</header>	
@@ -24,32 +28,53 @@
 				||
 				<a href = "about.html">About Page</a>
 			</nav>
-		</div></div>
-	  
-	  
-	  <div class="item2">photo gallery</div>
-	  
-	  <div class="item3">
-			<section class="border" style="text-align: center;">
-				<p>Contact</p>
-				<p><b>Email:</b> yellow@panther.com<br>
-				   <b>Phone Number:</b> (704) PAN-THER<br>
-				   <b>Address:</b> 1815 Green Street, Charlotte, NC 28202
-				</p>
-			</section></div>  
-	  
-	  <div class="item4">
-			<ul>Services
-				<li>Wedding Photography</li>
-				<li>Portraits/Headshots</li>
-				<li>Event Photography</li>
-				<li>Vehicle Photography</li>
-			</ul>
-	  </div>
-	  
-	  <footer class="item5">
-			<p> Designed by Simple Pixel Photos LLC 2021 </p>
-		</footer>
 	</div>
+	
+	<main>
+	<br>
+		<div style="margin: auto;">
+			<div class = "box">
+				<h2 style="text-align: left">Services We Offer</h2>
+				<ul>
+					<li><h3 style="text-align: left; font-weight: normal">Buy our Pictures</h3></li>
+					<li><h3 style="text-align: left; font-weight: normal">Specific Photography</h3></li>
+					<li><h3 style="text-align: left; font-weight: normal">Automobile Photography</h3></li>
+				</ul>
+			</div>
+		</div>
+		
+		<br>
+	
+		<h2>Photo Gallery</h2>
+        <p style="text-align: center">Take a look at some of our work!</p>
+        <ul id="slider">
+            <li><img src="images/leaf.jpg" alt="" title="Leaf"></li>
+            <li><img src="images/cycle1.jpg" alt="" title="Motorcycle"></li>
+            <li><img src="images/cycle2.jpg" alt="" title="Motorcyle"></li>
+            <li><img src="images/DSC_0410.JPG" alt="" title="UNCC Clock Tower"></li>
+            <li><img src="images/DSC_0189.JPG" alt="" title="BofA Building"></li>
+            <li><img src="images/DSC_0296.JPG" alt="" title="BofA Building at Night"></li>
+            <li><img src="images/TIGERSTARE.jpg" alt="" title="Tiger"></li>
+            <li><img src="images/DSC_0342.jpg" alt="" title="Tiger"></li>
+        </ul>
+        <p id="id_pager"></p>
+		
+		<br>		
+	</main>
+	<br>
+	<footer>
+		<br>	
+		<p> Designed by Simple Pixel Photos LLC 2021 </p>
+		
+		<div style="display: flex">
+				<div class = "box">
+					<p><b>Phone:</b> 800-PIX-PHOTOS</p>
+					<p><b>Email: </b>simplepixelphotos@gmail.com</p>
+					<a href="https://www.instagram.com/simplepixelphotos/">Instagram</a> 
+				</div>
+		</div>
+	
+	</footer>
 </body>
+
 </html>
