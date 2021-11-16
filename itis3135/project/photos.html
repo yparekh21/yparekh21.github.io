@@ -5,9 +5,11 @@
 	<meta charset = "UTF-8">
 	<title>Yash Parekh, ITIS 3135, Photos Page</title>
 	<link href = "styles/default.css" rel = "stylesheet" type = "text/css" >
-	<! –– https://coolors.co/ffff82-f5f7dc-b5d99c-0f0326-e65f5c --->
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script src="gallery.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+	<script src="photos.js"></script>
+
 </head>
 <body>
 		<div class="header-nav">
@@ -28,50 +30,54 @@
 		</div>
 		
 		<main>
-		<h2>Photo Gallery</h2> 
-			<br>
-			<p>Click on an image to enlarge.</p> 
-			<br>
-				<div id="photo_gallery" style="display: flex"> 
-					<li>
-						<a href="images/waterfall.jpg" title="Waterfall" id="waterfall"> 
-							<img src="images/waterfall_tn.jpg" alt="">
-						</a>
-					</li> 
-						
-					<li>
-						<a href="images/leaf.jpg" title="Leaf"> 
-							<img src="images/leaf_tn.jpg" alt="">
-						</a>
-					</li> 
-						
-					<li>
-						<a href="images/cycle1.jpg" title="Motorcycle"> 
-							<img src="images/cycle1_tn.jpg" alt="">
-						</a>
-					</li> 
-						
-					<li>
-						<a href="images/puddle.jpg" title="Puddle"> 
-							<img src="images/puddle_tn.jpg" alt="">
-						</a>
-					</li> 
-						
-					<li>
-						<a href="images/cycle2.jpg" title="Motorcyle"> 
-							<img src="images/cycle2_tn.jpg" alt="">
-						</a>
-					</li> 
-				</div> 
-			<h3 id="caption">Welcome to the Simple Pixel Photos!</h3> 
-			<p>
-				<img id="main_image" src="images/waterfall.jpg" alt="">
-			</p>
+		
+		
+			<div class="row" style="transform: scale(0.8);">
+				<div class="column">
+					<img src="images/DSC_0410.JPG" class="image">
+				</div>
+				<div class="column">
+					<img src="images/DSC_0189.JPG" class="image">
+				</div>
+				<div class="column">
+					<img src="images/puddle.jpg" class="image">
+				</div>
+
+				<div class="column">
+					<img src="images/DSC_0296.JPG" class="image">
+				</div>
+				<div class="column">
+					<img src="images/TIGERSTARE.jpg" class="image">
+				</div>
+				<div class="column">
+					<img src="images/DSC_0342.jpg" class="image">
+				</div>
+
+				<div class="column">
+					<img src="images/cycle2.jpg" class="image">
+				</div>
+				<div class="column">
+					<img src="images/leaf.jpg" class="image">
+				</div>
+				<div class="column">
+					<img src="images/cycle1.jpg" class="image">
+				</div>
+			</div>		
 		</main>
 	  
 	  <footer>
-			<p> Designed by Simple Pixel Photos LLC 2021 </p>
-		</footer>
+		<br>	
+		<p> Designed by Simple Pixel Photos LLC 2021 </p>
+		
+		<div style="display: flex">
+				<div class = "box">
+					<p><b>Phone:</b> 800-PIX-PHOTOS</p>
+					<p><b>Email: </b>simplepixelphotos@gmail.com</p>
+					<a href="https://www.instagram.com/simplepixelphotos/">Instagram</a> 
+				</div>
+		</div>
+	
+	</footer>
 	</div>
 </body>
 </html>
