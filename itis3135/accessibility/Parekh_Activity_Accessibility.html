@@ -31,7 +31,7 @@
 		  </thead>
 		  <tbody>
 			<tr>
-			  <th>Birthday Candles</th>
+			  <th scope = "row">Birthday Candles</th>
 			  <td><img alt="Birthday Candles" src="images/Birthday-Candles.jpg" style="width:200px;height:150px;"/></td>
 			  <td>	
 					<ol>
@@ -42,7 +42,7 @@
 				</td>   
 			</tr>
 			<tr>
-				<th>Votives</th>
+				<th scope = "row">Votives</th>
 				<td><img alt="Votives" src="images/voltives.jpeg" style="width:100px;height:150px;"/></td>
 				<td>	
 					<ol>
@@ -52,7 +52,7 @@
 				</td>
 			  </tr>
 			  <tr>
-				  <th>Taper Candles</th>
+				  <th scope = "row">Taper Candles</th>
 				  <td><img alt="Taper Candles" src="images/taper-candles.jpg" style="width:100px;height:150px;"/></td>
 				  <td>	
 					<ol>
@@ -68,12 +68,12 @@
 		<form action=#>
 			<p>Enter your name and phone number to win a gift!<br></p>
 				<label>
-					<input type="text" placeholder="Name" id="name" required>
+					<input type="text" placeholder="Name" id="name" alt="name" required />
 				</label>
 				<label>
-					<input type="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" required>
+					<input type="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" alt="phone number" required />
 				</label>
-				<button id="submit" type="submit">Submit</button>
+				<button id="submit" type="submit" alt="Submit">Submit</button>
 		</form>
 	   
 		<div class="whitespace"></div>
