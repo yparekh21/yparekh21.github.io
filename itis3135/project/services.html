@@ -5,7 +5,10 @@
 	<meta charset = "UTF-8">
 	<title>Yash Parekh, ITIS 3135, Services Page</title>
 	<link href = "styles/default.css" rel = "stylesheet" type = "text/css" >
-	<!–– https://coolors.co/ffff82-f5f7dc-b5d99c-0f0326-e65f5c --->
+	<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="services.js"></script>
 </head>
 <body>
 	  <div class="header-nav">
@@ -26,33 +29,32 @@
 		</div>
 	  <br>
 	 <main>
-		
-		<div class="row">
-			<div style="float: left; width: 33.33%">
-				<img src="images/purchase.png" width = 110px height = 110px>
-			</div>
-			<div style="float: left; width: 33.33%">
-				<img src="images/camera.png" width = 130px height =100px>
-			</div>
-			<div style="float: left; width: 33.33%">
-				<img src="images/vehicle.png" width = 170px height = 110px>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="column">
-				<h2>Buy our Pictures</h2>
-				<p>From a selection of photos, you can buy a picture sold by Simple Pixel Photos!
-			</div>
-			<div class="column">
-				<h2>Specific Photography</h2>
-				<p>Based on your given request, we can even take photographs that are specific to your choosing. Please contact us today!
-			</div>
-			<div class="column">
-				<h2>Vehicle Photography</h2>
-				<p>We can take photos of any automobiles that you'd like!</p>
-			</div>
-		</div>
+	
+		<h2>The Services That We Offer</h2>
+		<h3>We intend to provide reliable services for our clients. Based on the services that are provided, </h3>
+        <div id="tabs">
+						<h3><a href="#tabs-1">Buy our Pictures</a></h3>
+							<div id="tabs-1">
+									<img src="images/purchase.png" width = 110px height = 110px>
+									<p>From a selection of photos, you can buy a picture sold by Simple Pixel Photos!</p>
+								
+							 </div>
+						
+						<h3><a href="#tabs-2">Specific Photography</a></h3>
+							<div id="tabs-2">
+								<img src="images/camera.png" width = 130px height =100px>
+								<p>Based on your given request, we can even take photographs that are specific to your choosing. Please contact us today!
+							</div>
+						
+						<h3><a href="#tabs-3">Vehicle Photography</a></h3>
+							<div id="tabs-3">
+								<img src="images/vehicle.png" width = 170px height = 110px>
+								<p>We can take photos of any automobiles that you'd like!</p>
+							</div>
+			     
+			    
+                </div>
+        <!-- End Tabs HTML code -->
 		
 		
 	 </main>
