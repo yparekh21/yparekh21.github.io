@@ -11,10 +11,11 @@ $(document).ready(function() {
         },
         dataType: "json",
         success: function(data) {
+            $("#contactInfo").html("");
 			$.each(data, function(){
                 $.each(this, function(key, value){
                     $('#contactInfo').append(
-                        "<p><b>" + value.name + ":</b> " + value.description + "</p>" + "<br><br>"
+                        "<p><b>" + value.name + ":</b> " + value.description + "</p>"
                     );
                 });
             });
