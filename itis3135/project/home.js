@@ -14,8 +14,8 @@ $(document).ready(function() {
             $("#team").html("");
 			$.each(data, function(){
                 $.each(this, function(key, value){
-                    $('#team').append(
-                        "<h3>" + value.name + "</h3>" + value.description + "<br><br>"
+                    $('#team').append(					
+                        "<h3 style='text-align: left; font-weight: normal'>" + value.name + "</h3>" + value.description + "<br><br>"
                     );
                 });
             });
