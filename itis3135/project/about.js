@@ -3,7 +3,7 @@ $(document).ready(function() {
         type: "get",
         url: "about.json",
         beforeSend: function() {
-            $("#team").html("Loading...");
+            $("#reviews").html("Loading...");
         },
         timeout: 10000,
         error: function(xhr, status, error) {
@@ -11,10 +11,10 @@ $(document).ready(function() {
         },
         dataType: "json",
         success: function(data) {
-            $("#team").html("");
+            $("#reviews").html("");
 			$.each(data, function(){
                 $.each(this, function(key, value){
-                    $('#team').append(
+                    $('#reviews').append(
                         "<h3><i>" + value.name + "</i></h3>" + "<p>" + value.description + "</p>" + "<br><br>"
                     );
                 });
