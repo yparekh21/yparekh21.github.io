@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $.ajax({
         type: "get",
-        url: "about.json",
+        url: "contact.json",
         beforeSend: function() {
-            $("#reviews").html("Loading...");
+            $("#contactInfo").html("Loading...");
         },
         timeout: 10000,
         error: function(xhr, status, error) {
@@ -11,11 +11,11 @@ $(document).ready(function() {
         },
         dataType: "json",
         success: function(data) {
-            $("#reviews").html("");
+            $("#contactInfo").html("");
 			$.each(data, function(){
                 $.each(this, function(key, value){
-                    $('#reviews').append(
-                        "<h3><i>" + value.name + "</i></h3>" + "<p>" + value.description + "</p>" + "<br><br>"
+                    $('#contactInfo').append(
+                        "<p><b>" + value.name + ":</b> " + value.description + "</p>" + "<br><br>"
                     );
                 });
             });

@@ -27,6 +27,16 @@ footer{
 	background-color: #b0b0b0
 }
 
+
+.contactButton {
+  transition-duration: 0.4s;
+}
+
+.contactButton:hover {
+  background-color: #fcfc19; /* Green */
+  color: black;
+}
+
 h1, h2, h3
 {
 	font-family: Georgia, Cochin, Cambria, serif;

@@ -5,7 +5,7 @@
 	<meta charset = "UTF-8">
 	<title>Yash Parekh, ITIS 3135, Contact Page</title>
 	<link href = "styles/default.css" rel = "stylesheet" type = "text/css" >
-	<!–– https://coolors.co/ffff82-f5f7dc-b5d99c-0f0326-e65f5c --->
+	<script src="contact.js"></script>
 	
 </head>
 
@@ -29,65 +29,78 @@
 	
 	<main>
 		<script src="scripts/contact.js"></script>
-		<h2>Contact Page</h2>
-		<form action=#>
-			<p> Please enter your contact information and today's date:<br></p>
-				<label>
-					<input type="text" placeholder="Name" id="name" required>
-				</label>
-				<label>
-					<input type="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" required>
-				</label>
-				<label>
-					<input type="email" placeholder="Email Address" id="email" required>
-				</label>
-				<label>
-					<input type="date" id="date" required>
-				</label>
+		
+		<div class="reviews" style="text-align: left; border: solid; padding: 20px;">
+			<div style="padding: 25px; text-align: left; width: 45%">
+				<h2>Contact Page</h2>
+				<form action=#>
+					<p> Please enter your contact information and today's date:<br></p>
+						<label>
+							<input type="text" placeholder="Name" id="name" required>
+						</label>
+						<label>
+							<input type="tel" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="tel" required>
+						</label>
+						<label>
+							<input type="email" placeholder="Email Address" id="email" required>
+						</label>
+						<label>
+							<input type="date" id="date" required>
+						</label>
+					
+					<br><br>
+					<p> How would you like to be contacted?<br></p>
+						<label>
+							<input id="call" type="checkbox" name="contactpreference">Call
+						</label>
+						<label>
+							<input id="text" type="checkbox" name="contactpreference">Text
+						</label>
+						<label>
+							<input id="usingemail" type="checkbox" name="contactpreference">Email
+						</label>
+					
+					<br><br>
+					<p> What type of service would you like to try?<br></p>
+					<label>
+						<select name="service" id="serviceType" required>
+							<option id="web1">Buy our Photos</option>
+							<option id="web2">Specific Photography</option>
+							<option id="web3">Vehicle Photography</option>
+						</select>
+					</label>
+					<br><br>
+					<p> What is your preferred payment method?<br></p>
+						<label>
+						  <input id="cash" type="radio" name="payment-method" required>Cash 
+						</label>
+						<label>
+						  <input id="debit" type="radio" name="payment-method">Debit 
+						</label>
+						<label>
+						  <input id="credit" type="radio" name="payment-method">Credit 
+						</label>
+						<label>
+						  <input id="giftcard" type="radio" name="payment-method">Gift Card 
+						</label>			
+					
+					<br><br>
+					
+					<label>
+						<button class="contactButton" type="submit" onclick="displaytheData()">Submit</button>
+					</label>
+					
+				</form>
+			</div>
 			
-			<br><br>
-			<p> How would you like to be contacted?<br></p>
-				<label>
-					<input id="call" type="checkbox" name="contactpreference">Call
-				</label>
-				<label>
-					<input id="text" type="checkbox" name="contactpreference">Text
-				</label>
-				<label>
-					<input id="usingemail" type="checkbox" name="contactpreference">Email
-				</label>
-			
-			<br><br>
-			<p> What type of service would you like to try?<br></p>
-			<label>
-				<select name="service" id="serviceType" required>
-					<option id="web1">Buy our Photos</option>
-					<option id="web2">Specific Photography</option>
-					<option id="web3">Vehicle Photography</option>
-				</select>
-			</label>
-			<br><br>
-			<p> What is your preferred payment method?<br></p>
-				<label>
-				  <input id="cash" type="radio" name="payment-method" required>Cash 
-				</label>
-				<label>
-				  <input id="debit" type="radio" name="payment-method">Debit 
-				</label>
-				<label>
-				  <input id="credit" type="radio" name="payment-method">Credit 
-				</label>
-				<label>
-				  <input id="giftcard" type="radio" name="payment-method">Gift Card 
-				</label>			
-			
-			<br><br>
-			
-			<label>
-				<button id="submit" type="submit" onclick="displaytheData()">Submit</button>
-			</label>
-			
-		</form>
+			<div style="padding: 25px; text-align: left; width: 45%">
+				<h2>Your Information</h2>
+				<div id="displayUserInfo" style="text-align: left;"></div>
+			</div>
+		</div>
+		<br>
+		
+
 	</main>
 	<br>
 	<footer>
