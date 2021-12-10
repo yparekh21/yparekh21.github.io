@@ -1,0 +1,15 @@
+{"services":[
+	{
+		"name":"Buy our Pictures",
+		"description":"From a selection of photos, you can buy a picture sold by Simple Pixel Photos!"
+	},
+	{
+		"name":"Specific Photography",
+		"description":"Based on your given request, we can even take photographs that are specific to your choosing. Please contact us today!"
+	},
+	{
+		"name":"Automobile Photography",
+		"description":"We can take photos of any automobiles that you'd like!"
+	},
+
+]}
