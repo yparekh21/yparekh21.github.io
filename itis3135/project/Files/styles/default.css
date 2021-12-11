@@ -1,0 +1,103 @@
+
+/* https://coolors.co/6699cc-fff275-ff8c42-ff3c38-a23e48 */
+body
+{
+	font-family: helvetica, cambria, georgia;
+	color: #0f0326;
+	background-color: #cfe6fc;
+	margin: 0 auto;
+	padding: 20px;
+	width: auto;
+}
+main
+{
+	font-family: courier new;
+	background-color: #FFFF82;
+}
+header, footer, nav
+{
+	text-align: center;
+}
+.header-nav{
+	background-color: #b0b0b0
+	
+}
+
+footer{
+	background-color: #b0b0b0
+}
+
+
+.contactButton {
+  transition-duration: 0.4s;
+}
+
+.contactButton:hover {
+  background-color: #fcfc19; /* Green */
+  color: black;
+}
+
+h1, h2, h3
+{
+	font-family: Georgia, Cochin, Cambria, serif;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color: #FFFF82;
+	font-weight: bold;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: mediumseagreen;
+}
+
+div
+{
+	text-align: center;
+	border:  0;
+	border-color: black;
+}
+.column
+{
+	width: 33.33%;
+	float: left;
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.bx-wrapper {
+	width: 1000px;
+	margin: auto;
+	color: #b0b0b0; 
+}
+#id_pager {
+	text-align: center;
+	font-size: 90%;
+	color: green;
+}
+.box
+{
+	border: 1px solid black;
+	margin: auto;
+	width: 600px;
+	padding: 10px;
+	text-align: center;
+}
+.reviews
+{
+	display: flex;
+}
+.image
+{
+	width: 600px;
+	height: 400px;
+}
