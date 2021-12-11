@@ -5,16 +5,15 @@
 	<meta charset = "UTF-8">
 	<title>Yash Parekh, ITIS 3135, Photos Page</title>
 	<link href = "styles/default.css" rel = "stylesheet" type = "text/css" >
-
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>	
 	
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="js/magnific-popup.css">
-
-	<!-- Magnific Popup core JS file -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<script src="js/lightbox.js"></script>
+	
 	<script src="photos.js"></script>
 	<script src="about.js"></script>
+	
+	
 
 
 </head>
@@ -37,57 +36,58 @@
 		</div>
 		
 		<main>
-		 <div class="html-code grid-of-images">
+		<br>
+			<h2>Photo Gallery</h2>
+			<h3>(Click an image to enlarge, you can utilize the left and right arrow keys)</h3>
 			<div class="row" style="transform: scale(0.8);" aria-label="Portfolio of Photos">
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/DSC_0410.JPG" title="Belltower">
+					<a class="image-popup-fit-width" href="images/DSC_0410.JPG" title="Belltower" data-lightbox="roadtrip">
 						<img src="images/DSC_0410.JPG" class="image" alt="Belltower">
 					</a>
 				</div>
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/DSC_0189.JPG" title="BofA Building">
+					<a class="image-popup-fit-width" href="images/DSC_0189.JPG" title="BofA Building" data-lightbox="roadtrip">
 						<img src="images/DSC_0189.JPG" class="image" alt="BofA Building">
 					</a>
 				</div>
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/puddle.jpg" title="Puddle">
+					<a class="image-popup-fit-width" href="images/puddle.jpg" title="Puddle" data-lightbox="roadtrip">
 						<img src="images/puddle.jpg" class="image" alt="Puddle">
 					</a>
 				</div>
 
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/DSC_0296.JPG" title="BofA Building (Night)">
+					<a class="image-popup-fit-width" href="images/DSC_0296.JPG" title="BofA Building (Night)" data-lightbox="roadtrip">
 						<img src="images/DSC_0296.JPG" class="image" alt="BofA Building (Night)">
 					</a>
 				</div>
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/TIGERSTARE.jpg" title="Tiger">
+					<a class="image-popup-fit-width" href="images/TIGERSTARE.jpg" title="Tiger" data-lightbox="roadtrip">
 						<img src="images/TIGERSTARE.jpg" class="image"  alt="Tiger">
 					</a>
 				</div>
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/DSC_0342.jpg" title="Tiger">
+					<a class="image-popup-fit-width" href="images/DSC_0342.jpg" title="Tiger" data-lightbox="roadtrip">
 						<img src="images/DSC_0342.jpg" class="image" alt="Tiger">
 					</a>
 				</div>
 
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/cycle2.jpg" title="Motorcycle">
+					<a class="image-popup-fit-width" href="images/cycle2.jpg" title="Motorcycle" data-lightbox="roadtrip">
 						<img src="images/cycle2.jpg" class="image" alt="Motorcycle">
 					</a>
 				</div>
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/leaf.jpg" title="Leaf">
+					<a class="image-popup-fit-width" href="images/leaf.jpg" title="Leaf" data-lightbox="roadtrip">
 						<img src="images/leaf.jpg" class="image" alt="Leaf">
 					</a>
 				</div>
 				<div class="column">
-					<a class="image-popup-fit-width" href="images/cycle1.jpg" title="Motorcycle">
+					<a class="image-popup-fit-width" href="images/cycle1.jpg" title="Motorcycle" data-lightbox="roadtrip">
 						<img src="images/cycle1.jpg" alt="Motorcycle" class="image">
 					</a>
 				</div>
 			</div>	
-		</div>
 		</main>
 	  
 	  <footer>
